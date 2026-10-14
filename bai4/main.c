@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-int bcnn(int a, int b) {
+long long bcnn(int a, int b) {
 	int z = a * b;
 	while (a * b != 0) {
 		if (a > b) a %= b;
