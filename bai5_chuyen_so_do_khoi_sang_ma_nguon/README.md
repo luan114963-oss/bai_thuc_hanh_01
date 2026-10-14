@@ -1,1 +1,4 @@
-
+-input: số nguyên n;
+-output: kiểm tra số đó có phải số nguyên tố hay không;
+-vd: n=1 thấy 1<2 là true nên sẽ trả về false mà không cần vào vòng lặp. Lập tức kết luận không phải số nguyên tố;
+-vid: n=2. thấy 2<2 là false nên đi xuống vòng lặp for, nhận thấy 2<sqrt(2) nên trả về false ngay lập tức. Kết quả trả về: là số nguyên tố;
